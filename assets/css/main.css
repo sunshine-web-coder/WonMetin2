@@ -3047,3 +3047,22 @@ section {
   background: var(--color-primary);
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 500px) {
+  .header .logo h1 {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header .logo h1 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header .logo h1 {
+    font-size: 19px;
+  }
+}
